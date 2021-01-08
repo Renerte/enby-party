@@ -1,0 +1,13 @@
+{
+  "name": "enby-party",
+  "version": "1.0.0",
+  "author": "Renio <contact@renerte.net>",
+  "private": true,
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
