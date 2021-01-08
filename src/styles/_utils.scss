@@ -1,0 +1,11 @@
+@use "sass:list";
+
+@function bars($width, $angle, $colors...) {
+    $gradient: ($angle);
+    $cursor: 0;
+    @each $color in $colors {
+        $gradient: list.join($gradient, ($color $cursor, $color $cursor + $width));
+        $cursor: $cursor + $width;
+    }
+    @return $gradient;
+}
