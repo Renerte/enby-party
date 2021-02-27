@@ -6,10 +6,24 @@
   "scripts": {
     "build": "parcel build src/index.html",
     "clean": "rm -r .cache dist",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "lint": "eslint src"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "@vue/component-compiler-utils": "^3.2.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-vue": "^7.6.0",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.32.8"
+    "pug": "^3.0.0",
+    "sass": "^1.32.8",
+    "typescript": "^4.2.2",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue-hot-reload-api": "^2.3.4"
   }
 }
