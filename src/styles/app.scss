@@ -36,21 +36,21 @@ body {
   display: block;
   text-decoration: none;
   margin-bottom: 2em;
-  width: 100%;
-  color: #ccc;
-  padding: 1em 0;
+  width: calc(100% - 0.4em);
+  color: vars.$text-white;
+  padding: 1em 0.2em;
   font-size: 1.5rem;
   text-align: center;
   font-weight: 700;
 
   &:nth-of-type(4n+1) {
     background-color: vars.$yellow;
-    color: #333;
+    color: vars.$text-black;
   }
 
   &:nth-of-type(4n+2) {
     background-color: vars.$white;
-    color: #333;
+    color: vars.$text-black;
   }
 
   &:nth-of-type(4n+3) {
@@ -72,12 +72,18 @@ body {
   padding: 1em;
   font-size: 1.3rem;
   font-weight: 300;
-  color: #ccc;
+  color: vars.$text-white;
   background-color: vars.$black;
 
   & > .creator {
     color: inherit;
     text-decoration: none;
     font-weight: 400;
+  }
+
+  & > .pronouns {
+    font-size: 0.8em;
+    font-weight: 100;
+    font-style: italic;
   }
 }

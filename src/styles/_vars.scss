@@ -11,3 +11,6 @@ $bg-yellow: color.scale($yellow, $lightness: $bg-light-offset);
 $bg-white: color.scale($white, $lightness: $bg-light-offset);
 $bg-purple: color.scale($purple, $lightness: $bg-light-offset);
 $bg-black: color.scale($black, $lightness: $bg-light-offset);
+
+$text-black: #282828;
+$text-white: #ececec;
