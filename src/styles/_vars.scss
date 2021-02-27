@@ -1,11 +1,11 @@
 @use "sass:color";
 
 $yellow: #fef433;
-$white: #ffffff;
+$white: #dddddd;
 $purple: #9a59cf;
 $black: #2d2d2d;
 
-$bg-light-offset: -40%;
+$bg-light-offset: -60%;
 
 $bg-yellow: color.scale($yellow, $lightness: $bg-light-offset);
 $bg-white: color.scale($white, $lightness: $bg-light-offset);

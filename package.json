@@ -1,15 +1,15 @@
 {
   "name": "enby-party",
   "version": "1.0.0",
-  "author": "Renio <contact@renerte.net>",
+  "author": "Renn <contact@renerte.net>",
   "private": true,
   "scripts": {
     "build": "parcel build src/index.html",
-    "clean": "rm -r dist",
+    "clean": "rm -r .cache dist",
     "dev": "parcel src/index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.32.2"
+    "sass": "^1.32.8"
   }
 }
