@@ -23,7 +23,7 @@ body {
 
   .logo {
     max-width: 80%;
-    filter: drop-shadow(0 0 2px #fff6);
+    filter: drop-shadow(0 0 1px #ffffff);
   }
 }
 
@@ -59,6 +59,10 @@ body {
 
   &:nth-of-type(4n+4) {
     background-color: vars.$black;
+  }
+
+  @media only screen and (min-width: 1211px) {
+    border-radius: 15px;
   }
 }
 
