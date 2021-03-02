@@ -13,7 +13,7 @@ export default {
     }
   },
   async mounted() {
-    let linksReq = await axios.get('https://cdn.renerte.net/enby/links.json');
+    let linksReq = await axios.get('https://f002.backblazeb2.com/file/enby-party/links.json');
     this.links = linksReq.data;
   }
 }
