@@ -4,17 +4,13 @@ div.list
 </template>
 
 <script lang="ts">
-import axios from 'axios';
+import links from '../links.json';
 
 export default {
   data() {
     return {
-      links: []
+      links
     }
-  },
-  async mounted() {
-    let linksReq = await axios.get('https://f002.backblazeb2.com/file/enby-party/links.json');
-    this.links = linksReq.data;
   }
 }
 </script>
