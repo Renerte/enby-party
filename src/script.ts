@@ -1,6 +1,5 @@
-import 'regenerator-runtime/runtime.js';
-
-import Vue from 'vue';
+import { createApp } from 'vue';
 import LinkList from './components/LinkList.vue';
 
-new Vue(LinkList).$mount('#link-list');
+const app = createApp(LinkList);
+app.mount('#link-list');
