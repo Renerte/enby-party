@@ -1,6 +1,6 @@
 <template lang="pug">
 div.list
-  a.list-item(v-for='link in links' v-bind:href="link.url" target="_blank") {{link.label}}
+  a.list-item(v-for='link in links' v-bind:href="link.url" rel="noreferrer" target="_blank") {{link.label}}
 </template>
 
 <script lang="ts">
