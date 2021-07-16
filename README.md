@@ -10,7 +10,7 @@ Source for [enby.party](https://enby.party), a collection of resources about non
 ```bash
 asdf install
 yarn
-yarn dev # for development
+yarn start # for development
 yarn build # for production build (in /dist)
 ```
 

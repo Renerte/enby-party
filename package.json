@@ -4,13 +4,12 @@
   "author": "Renn <contact@renerte.net>",
   "private": true,
   "scripts": {
-    "prebuild": "yarn clean:dist",
     "build": "parcel build src/index.html --no-source-maps",
     "clean": "concurrently \"yarn clean:cache\" \"yarn clean:dist\"",
-    "clean:cache": "rm -rf .cache",
+    "clean:cache": "rm -rf .parcel-cache",
     "clean:dist": "rm -rf dist",
-    "dev": "parcel src/index.html",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
