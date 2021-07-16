@@ -79,9 +79,12 @@ body {
   color: vars.$text-white;
   background-color: vars.$black;
 
-  & > .creator {
+  & > a {
     color: inherit;
     text-decoration: none;
+  }
+
+  & > .creator {
     font-weight: 400;
   }
 
