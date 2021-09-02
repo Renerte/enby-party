@@ -15,16 +15,16 @@
     "@babel/core": "^7.15.0",
     "@parcel/transformer-sass": "2.0.0-beta.3.1",
     "@parcel/transformer-vue": "2.0.0-beta.3.1",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
     "concurrently": "^6.2.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.16.0",
+    "eslint-plugin-vue": "^7.17.0",
     "parcel": "next",
     "postcss": "^8.3.6",
     "pug": "^3.0.2",
-    "sass": "^1.38.1",
-    "typescript": "^4.3.5",
-    "vue": "^3.2.4"
+    "sass": "^1.39.0",
+    "typescript": "^4.4.2",
+    "vue": "^3.2.7"
   }
 }
