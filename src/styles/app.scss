@@ -71,7 +71,9 @@ body {
 }
 
 .footer {
+  display: flex;
   justify-self: end;
+  flex-flow: row nowrap;
   width: calc(100% - 2em);
   padding: 1em;
   font-size: 1.3rem;
@@ -79,18 +81,22 @@ body {
   color: vars.$text-white;
   background-color: vars.$black;
 
-  & > a {
+  & a {
     color: inherit;
     text-decoration: none;
   }
 
-  & > .creator {
+  & .creator {
     font-weight: 400;
   }
 
-  & > .pronouns {
-    font-size: 0.8em;
-    font-weight: 100;
-    font-style: italic;
+  & > .filler {
+    flex-grow: 1;
+  }
+
+  & > a.github {
+    display: block;
+    height: 32px;
+    fill: vars.$text-white;
   }
 }
