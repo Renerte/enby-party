@@ -12,23 +12,23 @@
     "start": "parcel src/index.html"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@parcel/transformer-sass": "^2.7.0",
-    "@parcel/transformer-vue": "^2.7.0",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
-    "concurrently": "^7.4.0",
-    "eslint": "^8.25.0",
-    "eslint-plugin-vue": "^9.6.0",
-    "parcel": "^2.7.0",
-    "postcss": "^8.4.18",
+    "@babel/core": "^7.20.5",
+    "@parcel/transformer-sass": "^2.8.0",
+    "@parcel/transformer-vue": "^2.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "parcel": "^2.8.0",
+    "postcss": "^8.4.19",
     "pug": "^3.0.2",
-    "sass": "^1.55.0",
-    "typescript": "^4.8.4",
-    "vue": "^3.2.40"
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3",
+    "vue": "^3.2.45"
   },
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@3.3.0",
   "volta": {
-    "node": "16.17.1"
+    "node": "18.12.1"
   }
 }
