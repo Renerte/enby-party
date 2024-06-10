@@ -4,32 +4,36 @@
   "author": "Renn <contact@renerte.net>",
   "private": true,
   "scripts": {
-    "build": "yarn clean && parcel build src/index.html --no-source-maps",
-    "clean": "concurrently \"yarn clean:cache\" \"yarn clean:dist\"",
+    "build": "bun run clean:dist && parcel build src/index.html --no-source-maps",
+    "clean": "concurrently \"bun run clean:cache\" \"bun run clean:dist\"",
     "clean:cache": "rm -rf .parcel-cache",
     "clean:dist": "rm -rf dist",
     "lint": "eslint src",
     "start": "parcel src/index.html"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@parcel/core": "^2.9.3",
-    "@parcel/transformer-sass": "^2.9.3",
-    "@parcel/transformer-vue": "^2.9.3",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
-    "@typescript-eslint/parser": "^6.2.0",
-    "concurrently": "^8.2.0",
-    "eslint": "^8.45.0",
-    "eslint-plugin-vue": "^9.15.1",
-    "parcel": "^2.9.3",
-    "postcss": "^8.4.27",
-    "pug": "^3.0.2",
-    "sass": "^1.64.1",
-    "typescript": "^5.1.6",
-    "vue": "^3.3.4"
+    "@babel/core": "^7.24.7",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.4.0",
+    "@parcel/core": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
+    "@parcel/transformer-vue": "^2.12.0",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "@vue/language-plugin-pug": "^2.0.21",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.4.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.4.0",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "pug": "^3.0.3",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5",
+    "vue": "^3.4.27"
   },
   "packageManager": "yarn@3.6.1",
   "volta": {
-    "node": "18.17.0"
+    "node": "18.20.3"
   }
 }
